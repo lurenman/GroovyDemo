@@ -1,6 +1,6 @@
 package object
 
-class Student implements OnClickListener, DefaultListener {
+class Student implements OnClickListener, DefaultListener, Serializable {
     String name
     Integer age
 
